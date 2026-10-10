@@ -1,0 +1,57 @@
+/* h1{
+    color:blue;
+} 
+.h1-tag{
+    color:red;
+} */
+.nav-bar{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    background-color:burlywood;
+    padding: 15px;
+    margin: 0px; 
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+}
+.nav-bar a:hover{
+    /* color: red; */
+    /* text-color: white; */
+    text-decoration: underline;
+    background-color:white;
+}
+body{
+    margin: 0px;
+}
+.card{
+    border:2px solid black;
+    width: 350px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:70px;
+    border-radius: 30px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(96, 83, 83, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+
+}
+.card button{
+    width:70%;
+    padding: 8px;
+    border-radius: 20px;
+}
+.card button:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}
